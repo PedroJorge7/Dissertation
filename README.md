@@ -8,4 +8,4 @@
 
 * Orientador: Jevuks Matheus Araújo
 
-![ufpb.png](ufpb.png)
+![ufpb.png](ufpb.png =100x20)
