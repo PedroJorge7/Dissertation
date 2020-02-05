@@ -1,0 +1,94 @@
+%---------------------------------------------------
+% CAPA, CONTRACAPA E FICHA CATALOGRÁFICA DA  TESE
+%---------------------------------------------------
+
+
+%---------------------------------------------------
+% Capa
+%\imprimircapa MODELO ABNT GERAL 
+% Modelo personalizado abaixo
+%---------------------------------------------------
+
+\setlength{\parindent}{0cm}
+\chapter*[capa]{}
+\begin{minipage}{\linewidth}
+	
+	\centering
+	
+	\begin{tabular}{ll}
+		\begin{minipage}{2.0cm}
+			\includegraphics[width=2.0cm]{logo-ufpb}
+		\end{minipage}
+		
+		&  
+		
+		\begin{minipage}{0.75\textwidth}
+	\large\ABNTEXchapterfont\SingleSpacing{
+			
+		   \imprimirinstituicao
+				
+				\vspace{5mm}
+			}
+		\end{minipage}
+		
+		
+	\end{tabular} 	
+	
+\end{minipage}
+
+				
+
+
+
+\vspace{7cm}
+\begin{center}
+	
+	\begin{minipage}{\linewidth}
+		\centering\Large\bfseries\ABNTEXchapterfont\SingleSpacing {
+			
+            \imprimirtitulo
+			
+		}
+		
+	\end{minipage}
+\end{center}
+
+
+
+ \vspace{3cm}
+\begin{center}
+	\begin{minipage}{\linewidth}
+		\centering\Large\ABNTEXchapterfont\SingleSpacing {
+			
+     	\imprimirautor
+			
+		}
+	\end{minipage}
+\end{center}
+
+
+\vspace{1cm}
+\begin{center}
+	\begin{minipage}{\linewidth}
+		\centering\normalsize\ABNTEXchapterfont\SingleSpacing {
+			\imprimirlocal \\ \imprimirdata
+		}
+	\end{minipage}
+	
+	
+\end{center}
+
+\setlength{\parindent}{1.2cm}
+
+\cleardoublepage
+
+
+%---------------------------------------------------	
+% Folha de rosto
+% (O símbolo * indica que haverá a ficha bibliográfica)
+%---------------------------------------------------
+
+\imprimirfolhaderosto*	
+
+\makeatother	
+\newpage

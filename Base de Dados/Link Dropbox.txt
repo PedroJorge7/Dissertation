@@ -1,0 +1,2 @@
+R : https://www.dropbox.com/s/tlq6bdlh6cfwf57/Base_de_Dados_Final.rds?dl=0
+Stata : https://www.dropbox.com/s/eczptz9hrw8jrfh/Base_de_Dados_Final.dta?dl=0
